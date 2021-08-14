@@ -9,52 +9,52 @@
 }
 
 .box-1{
-    background-color: blue; height: 1200px;   margin: .5em; width: 376px;
+    background-color: orange; height: 1200px;   margin: .5em; width: 376px;
      
 }
 
 .box-2{
-  background-color: blue; height: 1200px;  margin: .5em; 
+  background-color: orange; height: 1200px;  margin: .5em; 
      padding-left: .5em;  padding-right: .5em; float: left;
 }
 
 .box-2-a{
- height: 400px; background-color: coral; width: 100px; margin:1em; float: left;
+ height: 400px; background-color: aqua; width: 100px; margin:1em; float: left;
 }
 
 .box1-a{
-    width: 95%; background-color: coral; height: 50%; margin-bottom: 1em; margin-right: 1em;
+    width: 95%; background-color: aqua; height: 50%; margin-bottom: 1em; margin-right: 1em;
 }
 
 .box1-b{
-    width:95; background-color: coral; height: 50%; margin-top: 1em; margin-right: 1em; display: flex; text-align: center; justify-content: center;
+    width:95; background-color: aqua; height: 50%; margin-top: 1em; margin-right: 1em; display: flex; text-align: center; justify-content: center;
 }
 
 .box2{
-    height: 570px; background-color: coral; width: 100%; margin-top: .5em; margin-bottom: .5em; padding-left: 5%; float: auto;;
+    height: 570px; background-color: aqua; width: 100%; margin-top: .5em; margin-bottom: .5em; padding-left: 5%; float: auto;;
 }
 
 .box2 p{
     font-size: 12px;
 }
 .box31{
-    height: 50%; width: 50%; background-color:blue; float: left; padding-right:.5em; padding-bottom: .5em; padding-left: 1em; padding-top: 1em;
+    height: 50%; width: 50%; background-color:orange; float: left; padding-right:.5em; padding-bottom: .5em; padding-left: 1em; padding-top: 1em;
 }
 .box32{
-   height: 50%; width: 50%; background-color:blue; float: left; padding-left: .5em; padding-bottom: .5em;
+   height: 50%; width: 50%; background-color:orange; float: left; padding-left: .5em; padding-bottom: .5em;
 }
 .box333{
-  height: 50%; width: 50%; background-color:blue; float: left; padding-right: .5em; padding-top: .5em;
+  height: 50%; width: 50%; background-color:orange; float: left; padding-right: .5em; padding-top: .5em;
 }
 .box34{
-  height: 50%; width: 50%; background-color:blue; float: left; padding-left: .5em; padding-top: .5em; padding-right: 1em; padding-bottom: 1em;
+  height: 50%; width: 50%; background-color:orange; float: left; padding-left: .5em; padding-top: .5em; padding-right: 1em; padding-bottom: 1em;
 }
 .box33{
-    background-color: blue; height: 1200px; width: auto;
+    background-color: orange; height: 1200px; width: auto;
       margin: .5em;
 }
 .box3{
-  height: 100%; width: 100%; background-color: coral;
+  height: 100%; width: 100%; background-color: aqua;
 }
 .row::after {
   content: "";
