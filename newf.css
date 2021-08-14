@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    padding: 0; text-align: center;
+}
+
+.wrapper{
+    width: 100%; height: auto; background-color: rgb(241, 223, 206); 
+     display: flex; justify-content: center; align-items: center;
+}
+
+.box-1{
+    background-color: blue; height: 1200px;   margin: .5em; width: 376px;
+     
+}
+
+.box-2{
+  background-color: blue; height: 1200px;  margin: .5em; 
+     padding-left: .5em;  padding-right: .5em; float: left;
+}
+
+.box-2-a{
+ height: 400px; background-color: coral; width: 100px; margin:1em; float: left;
+}
+
+.box1-a{
+    width: 95%; background-color: coral; height: 50%; margin-bottom: 1em; margin-right: 1em;
+}
+
+.box1-b{
+    width:95; background-color: coral; height: 50%; margin-top: 1em; margin-right: 1em; display: flex; text-align: center; justify-content: center;
+}
+
+.box2{
+    height: 570px; background-color: coral; width: 100%; margin-top: .5em; margin-bottom: .5em; padding-left: 5%; float: auto;;
+}
+
+.box2 p{
+    font-size: 12px;
+}
+.box31{
+    height: 50%; width: 50%; background-color:blue; float: left; padding-right:.5em; padding-bottom: .5em; padding-left: 1em; padding-top: 1em;
+}
+.box32{
+   height: 50%; width: 50%; background-color:blue; float: left; padding-left: .5em; padding-bottom: .5em;
+}
+.box333{
+  height: 50%; width: 50%; background-color:blue; float: left; padding-right: .5em; padding-top: .5em;
+}
+.box34{
+  height: 50%; width: 50%; background-color:blue; float: left; padding-left: .5em; padding-top: .5em; padding-right: 1em; padding-bottom: 1em;
+}
+.box33{
+    background-color: blue; height: 1200px; width: auto;
+      margin: .5em;
+}
+.box3{
+  height: 100%; width: 100%; background-color: coral;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 90%; 
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+@media screen and (max-width: 768px) {
+  div{
+    flex-direction: column;
+  }
+}
+
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: green; color: white; padding: .5em; text-decoration: none;
+}
+
+div.fixed a{
+  text-decoration: none; color: white;
+}
