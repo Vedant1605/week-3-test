@@ -15,26 +15,26 @@
   margin: 1em;
 }
 #one_box1 {
-  height: 45%;
-  width: 90%;
+  height: 95%;
+  width: 43%;
   position: relative;
-  left: 0em;
-  top: 0em;
+  left: 1em;
+  top: 1em;
   background-color: aqua;
 }
 #one_box2 {
-  height: 45%;
-  width: 90%;
-  position: relative;
-  left: 0em;
-  bottom: -10%;
+  height: 95%;
+  width: 43%;
+  position: absolute;
+  right: 1em;
+  top: 1em;
   background-color: aqua;
 }
 #two_box1 {
   height: 45%;
   width: 43%;
   margin-top: 1em;
-  margin-left: 1em;
+  margin-left: 0em;
   background-color: aqua;
 }
 #two_box2 {
@@ -42,7 +42,7 @@
   width: 43%;
   position: absolute;
   top: 1em;
-  right: 1em;
+  right: 0em;
   background-color: aqua;
 }
 #two_box3 {
@@ -73,7 +73,7 @@
   height: 43%;
   position: absolute;
   top: 2.5em;
-  left: 1.75em;
+  left: 1.5em;
   background: aqua;
 }
 #three_box2{
@@ -89,14 +89,17 @@
   height: 43%;
   position: absolute;
   bottom: 0;
+  left:0;
   background: aqua;
+  box-sizing: border-box;
+  align-items: center;
 }
 #three_box4{
   width: 43%;
   height: 43%;
   position: absolute;
-  bottom: 2.75em;
-  right: 1.75em;
+  bottom: 2.5em;
+  right: 1.5em;
   background: aqua;
 }
 
@@ -105,23 +108,18 @@
   .container{
     flex-direction: column;
   }
-  #two_box1 {
-    margin: 1em;
-    height: 30%;
-    width: auto;
-    background-color: aqua;
-  }
-  #two_box2 {
+  #one_box1 {
+    width: 90%;
+    height: 43%;
     position: static;
-    height: 30%;
-    width: auto;
     margin: 1em;
     background-color: aqua;
   }
-  #two_box3 {
+  #one_box2 {
+    width: 90%;
+    height: 43%;
     margin: 1em;
-    height: 30%;
-    width: auto;
+    position: static;
     background-color: aqua;
   }
 }
