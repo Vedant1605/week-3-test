@@ -109,17 +109,27 @@
     flex-direction: column;
   }
   #one_box1 {
-    width: 90%;
-    height: 43%;
+    width: 89%;
+    height: 45%;
     position: static;
     margin: 1em;
     background-color: aqua;
   }
   #one_box2 {
-    width: 90%;
-    height: 43%;
+    width: 89%;
+    height: 45%;
     margin: 1em;
     position: static;
     background-color: aqua;
+  }
+  #three_box1{
+    left: 1em;
+    background: aqua;
+  }
+  #three_box4{
+    right: 1em;
+  }
+  #two_box3 {
+    margin-left: 0.55em;
   }
 }
